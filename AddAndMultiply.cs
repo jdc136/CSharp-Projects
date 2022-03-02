@@ -7,8 +7,6 @@ using System;
 
 namespace ProgrammingExercises {
 
-
-
     class Program {
 
         public static string ToOrdinal(int num) {
@@ -68,7 +66,6 @@ namespace ProgrammingExercises {
             answer = (userInts[0] + userInts[1]) * userInts[2];
 
             Console.WriteLine($"The answer is: {answer}");
-
         }
     }
 }
