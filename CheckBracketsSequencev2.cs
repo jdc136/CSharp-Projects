@@ -15,9 +15,6 @@ namespace ProgrammingExercises {
             int check = 0;
 
             for (int i = 0; i < brackets.Length; i++) {
-                if ((int)brackets[i] < 40 || (int)brackets[i] > 41) {
-                    return false;
-                }
                 check = ((brackets[i] == '(') ? ++check : --check);
             }
             return (check == 0);
