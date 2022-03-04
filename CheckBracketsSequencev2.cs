@@ -23,7 +23,7 @@ namespace ProgrammingExercises {
         static void Main(string[] args) {
 
             string input;
-            string prompt = $"Please enter any number of backward or forward round bracket characters, ')' or '(': ";
+            string prompt = $"Please enter any number of opening and closing bracket characters, ')' or '(': ";
             char exit = 'Y';
 
             while (char.ToUpper(exit) == 'Y') {
