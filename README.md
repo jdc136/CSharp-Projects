@@ -34,5 +34,8 @@ I was really pleased with my learning and problem-solving experience on this one
 ## Number of Words
 This one almost seemed mis-classified as 'intermediate'. I solved it handily, only having to tweak fringe cases a bit like an empty string (zero words) or a single word sentence (one word).
 
+## Revert Words Order
+This was a challenging one! I got a reversal of the sentence pretty quick, as defined by delimiting on a space, but handling the punctuation was the pesky part. In my solution you can see what I did, but with the input `A, B. C` I wasn't getting the expected `C B. A,`. I tried a number of things but after realizing the crux of the issue with my code, I decided to look at the solution code. I went through it all, and then realized that didn't provide the expected output either! So I've gone ahead and just posted the solution code commmented out below my own solution.
+
 ## Bibliography
 Albahari, Joseph and Ben Albahari. *C# 9.0 Pocket Reference: Instant Help for C# 9.0 Programmers*. O'Reilly Media, 2021.
