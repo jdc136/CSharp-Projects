@@ -18,3 +18,6 @@ At this point, I've gone over a couple algorithms testing whether a word is a pa
 
 ## Length of String
 This one was easiest by far! I got it in about 5 minutes, simply using a `foreach` loop to go through each character in the string, including spaces. I didn't call any library methods or properties at all, including `String.Length`.
+
+## Reverse String
+Like Length of String, I found this one to be very simple and straightforward. Mostly because of work from the Is Palindrome and Add Separator exercises.
