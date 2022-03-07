@@ -20,7 +20,7 @@ namespace ProgrammingExercises {
             string word = String.Empty;
             char exit = 'Y';
             while (char.ToUpper(exit) == 'Y') {
-                Console.Write("Enter a word to test if it is a palindrome: ");
+                Console.Write("Enter a word to get the length: ");
                 word = Console.ReadLine();
                 Console.WriteLine($"The length of the word \"{word}\" is: {GetStringLength(word)}");
 
