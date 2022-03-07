@@ -24,3 +24,9 @@ Like Length of String, I found this one to be very simple and straightforward. M
 
 ## Sum Digits in String
 Once again, I found this pretty straightforward and got it done in about 5-10 minutes. I did have to remind myself that `int.TryParse()` requires a second argument with the `out` keyword.
+
+## Make Uppercase
+I learned a number of new things on this one. First, I initially struggled with making every other letter uppercase when looping through the string *as a string*. So after a little research, I changed what I was looping through to a character array and then returned that as a string. On this, I initially used `ToString()` which I discovered "returns the default textual representation of a type instance" (Albahari and Albahari 101). 
+
+## Bibliography
+Albahari, Joseph and Ben Albahari. *C# 9.0 Pocket Reference: Instant Help for C# 9.0 Programmers*. O'Reilly Media, 2021.
