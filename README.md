@@ -21,3 +21,6 @@ This one was easiest by far! I got it in about 5 minutes, simply using a `foreac
 
 ## Reverse String
 Like Length of String, I found this one to be very simple and straightforward. Mostly because of work from the Is Palindrome and Add Separator exercises.
+
+## Sum Digits in String
+Once again, I found this pretty straightforward and got it done in about 5-10 minutes. I did have to remind myself that `int.TryParse()` requires a second argument with the `out` keyword.
