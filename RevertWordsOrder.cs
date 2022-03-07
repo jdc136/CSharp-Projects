@@ -1,5 +1,5 @@
-/* Given a string, write a method that counts its number of words. Assume there are no leading and trailing whitespaces and there is only single whitespace between two consecutive words.
- * https://csharpexercises.com/strings/exercise/number-of-words#
+/* Given a string, write a method that returns new string with reverted words order. Pay attention to the punctuation at the end of the sentence (period).
+* https://csharpexercises.com/strings/exercise/revert-words-order
  */
 
 using System;
