@@ -15,3 +15,6 @@ I had a bit of difficulty on this one, mostly relating to the fact that my initi
 
 ## Is Palindrome
 At this point, I've gone over a couple algorithms testing whether a word is a palindrome a few times, so I found this to be straightforward. I didn't remember in detail what I had done before, but playing around with a couple strategies I was able to solve it in about 10-15 minutes.
+
+## Length of String
+This one was easiest by far! I got it in about 5 minutes, simply using a `foreach` loop to go through each character in the string, including spaces. I didn't call any library methods or properties at all, including `String.Length`.
