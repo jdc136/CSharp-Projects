@@ -37,5 +37,11 @@ This one almost seemed mis-classified as 'intermediate'. I solved it handily, on
 ## Revert Words Order
 This was a challenging one! I got a reversal of the sentence pretty quick, as defined by delimiting on a space, but handling the punctuation was the pesky part. In my solution you can see what I did, but with the input `A, B. C` I wasn't getting the expected `C B. A,`. I tried a number of things but after realizing the crux of the issue with my code, I decided to look at the solution code. I went through it all, and then realized that didn't provide the expected output either! So I've gone ahead and just posted the solution code commmented out below my own solution.
 
+## Sort Characters Descending
+This one is either be very easy or very hard! I looked up the methods for Array class and simply did `Array.Sort()` and then `Array.Reverse()` which got me exactly the results I wanted. However, because the whole point of this is to go through an algorithm myself, I took a shot at sorting in descending order... and boy is there a lot out there about sorting! I do want to revisit this one in the future, but for now, it was satisfactory to look over numerous algorithms (notably quicksort) that would solve the problem of sorting each character in this array.
+
+## Compress String
+I wrote this out in about 15 minutes, expecting it to be much harder given that it was classified as "hard". I was a bit dissatisfied with my code because I repeat a line, but upon looking at the offered solution, we had done very nearly the same thing. And it works!
+
 ## Bibliography
 Albahari, Joseph and Ben Albahari. *C# 9.0 Pocket Reference: Instant Help for C# 9.0 Programmers*. O'Reilly Media, 2021.
