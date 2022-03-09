@@ -43,5 +43,8 @@ This one is either be very easy or very hard! I looked up the methods for Array 
 ## Compress String
 I wrote this out in about 15 minutes, expecting it to be much harder given that it was classified as "hard". I was a bit dissatisfied with my code because I repeat a line, but upon looking at the offered solution, we had done very nearly the same thing. And it works!
 
+## Elementary Dear Watson
+This Elementary Operations exercise was pretty staightforward. Most difficult thing was converting the string input to int, which I had forgotten! I assummed that the order the digits were entered was the order in which the digits should be applied to each other by the various operators (i.e. second number is the divisor). (Note, this only really matters for subtraction and division, as there are mathematical laws stating the result of multiplication and addition will not be affected by the arguments.) Though it did take me longer than I would have liked, I was pleased at how I broke the problem up eventually into the two methods.
+
 ## Bibliography
 Albahari, Joseph and Ben Albahari. *C# 9.0 Pocket Reference: Instant Help for C# 9.0 Programmers*. O'Reilly Media, 2021.
